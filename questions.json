@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "question": "Who created HTML?",
+            "answers": [
+                "Tim Berners-Lee",
+                "Bjorne Stroustrop",
+                "Ada Lovelace",
+                "Mark Zuckerberg"
+            ],
+            "correct": [0]
+        },
+        {
+            "question": "What Python error do you get when a variable is not found in the local or global scope?",
+            "answers": [
+                "SyntaxError",
+                "MemoryError",
+                "NameError",
+                "ValueError"
+            ],
+            "correct": [2]
+        },
+        {
+            "question": "Which of these are strings?",
+            "answers": [
+                "5",
+                "\"five\"",
+                "'five'",
+                "5.0"
+            ],
+            "correct": [1, 2]
+        },
+        {
+            "question": "What number base do computers use?",
+            "answers": [
+                "hexadecimal (base 16)",
+                "decimal (base 10)",
+                "octal (base 8)",
+                "binary (base 2)"
+            ],
+            "correct": [3]
+        }
+    ]
+}
