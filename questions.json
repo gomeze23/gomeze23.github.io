@@ -1,34 +1,14 @@
 {
     "questions": [
         {
-            "question": "Who created HTML?",
-            "answers": [
-                "Tim Berners-Lee",
-                "Bjorne Stroustrop",
-                "Ada Lovelace",
-                "Mark Zuckerberg"
-            ],
-            "correct": [0]
-        },
-        {
-            "question": "What Python error do you get when a variable is not found in the local or global scope?",
-            "answers": [
-                "SyntaxError",
-                "MemoryError",
-                "NameError",
-                "ValueError"
-            ],
-            "correct": [2]
-        },
-        {
-            "question": "Which of these are strings?",
+            "question": "Which one is a string?",
             "answers": [
                 "5",
                 "\"five\"",
-                "'five'",
+                "false",
                 "5.0"
             ],
-            "correct": [1, 2]
+            "correct": [1]
         },
         {
             "question": "What number base do computers use?",
@@ -39,6 +19,87 @@
                 "binary (base 2)"
             ],
             "correct": [3]
+        },
+        {
+            "question": "a and not b\nWhat variables must be true for this condition to be true?",
+            "answers": [
+                "a = true, b = true",
+                "a = true, b = false",
+                "a = false, b = true",
+                "a = false, b = false"
+            ],
+            "correct": [1]
+        },
+        {
+            "question": "Which one is a low-level programming language?",
+            "answers": [
+                "C#",
+                "Python",
+                "C",
+                "Ruby"
+            ],
+            "correct": [2]
+        },
+        {
+            "question": "int(input(\"How old are you?\")\nThis Python statement will raise an error. Why?",
+            "answers": [
+                "The statement is missing a bracket.",
+                "The string must be surrounded in single quotes.",
+                "The int() function cannot accept inputs.",
+                "The statement is missing a semicolon (;) at the end."
+            ],
+            "correct": [0]
+        },
+        {
+            "question": "[\"apple\", \"orange\", \"banana\", \"mango\", \"strawberry\"]\nWhich indices will return \"strawberry\"?",
+            "answers": [
+                "4",
+                "5",
+                "-1",
+                "\"strawberry\""
+            ],
+            "correct": [0, 2]
+        },
+        {
+            "question": "What does a Python file's name have to end with?",
+            "answers": [
+                ".python",
+                ".p",
+                ".pn",
+                ".py"
+            ],
+            "correct": [3]
+        },
+        {
+            "question": "Who created Python?",
+            "answers": [
+                "Tim Berners-Lee",
+                "Bjarne Stroustrup",
+                "Guido van Rossum",
+                "Mark Zuckerberg",
+                "Elon Musk"
+            ],
+            "correct": [2]
+        },
+        {
+            "question": "What symbol must be used at the start of a Python comment?",
+            "answers": [
+                "//",
+                "#",
+                "comment",
+                "->"
+            ],
+            "correct": [1]
+        },
+        {
+            "question": "What symbols are used to define dictionaries in Python?",
+            "answers": [
+                "[]",
+                "()",
+                "{}",
+                "dict()"
+            ],
+            "correct": [2, 3]
         }
     ]
 }
