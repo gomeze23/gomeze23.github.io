@@ -242,7 +242,9 @@ function calculateScore() {
     updateLabel(bottomLabel, `You got ${score} out of ${questions.length} (${scorePercentage.toFixed(2)}%) correct.`, ["display", "block"]);
 
     // Tell the user if they passed or failed.
-    if (scorePercentage < passingPercentage) {
+    if (scorePercentage === 100) {
+        bottomLabel.innerText += " Great job! You got all of them right!";
+    } else if (scorePercentage < passingPercentage) {
         bottomLabel.innerText += " You failed. Better luck next time!";
     } else {
         bottomLabel.innerText += " You passed. Good job!";
