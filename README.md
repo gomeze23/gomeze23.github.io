@@ -2,7 +2,7 @@
 *Made by Ethan Gomez*
 
 ## Introduction
-This program is my submission for AS 92004 (Create a computer program). For my assessment, I made a quiz program that tests the user’s programming knowledge. I programmed the quiz using HTML for the website structure, CSS for the website styles, a JSON file to store my questions and answers, and most importantly, I used JavaScript to add functionality to the quiz website.
+This program is my submission for AS 92004 (Create a computer program). For my assessment, I made a quiz program that tests the user’s programming (and Python) knowledge. I programmed the quiz using HTML for the website structure, CSS for the website styles, a JSON file to store my questions and answers, and most importantly, I used JavaScript to add functionality to the quiz website.
 
 My program follows the requirements needed to pass the assessment:
 - The program uses JavaScript, which can support the assessment requirements.
