@@ -79,7 +79,7 @@ function start() {
     updateLabel(topLabel, undefined, ["display", "none"]);
     updateLabel(questionLabel, "Welcome to the Programming Quiz!", ["display", "block"]);
     updateLabel(answersBlock, undefined, ["display", "none"]);
-    updateLabel(bottomLabel, `You must get over ${passingPercentage.toFixed(2)}% to pass.`, ["display", "block"]);
+    updateLabel(bottomLabel, `You must get ${passingPercentage.toFixed(2)}% or higher to pass.`, ["display", "block"]);
     updateSubmitButton("Start", restart);
 }
 
